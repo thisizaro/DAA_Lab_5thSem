@@ -5,7 +5,7 @@ int main()
     // accept input stream from input.txt
     FILE *sc = fopen("input.txt", "r");
     int n;
-    // read an integer from the file
+
     fscanf(sc, "%d", &n);
     int arr[n];
 

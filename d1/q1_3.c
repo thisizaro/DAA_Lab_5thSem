@@ -21,8 +21,6 @@ int main()
         fscanf(sc, "%d", &arr[i]);
     }
 
-    // Source code:
-
     // Finding total number of times each element appears in the array
     struct ElementCount elementCounts[n];
     int uniqueCount = 0;
